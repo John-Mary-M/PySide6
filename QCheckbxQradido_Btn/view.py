@@ -44,7 +44,7 @@ class RadCheckBtn(QWidget):
         drink_layout.addWidget(juice)
         drink_layout.addWidget(coffee)
         drinks.setLayout(drink_layout)
-        
+
         # Radio buttons: answers
         answers = QGroupBox("Choose An Answer")
 
@@ -61,13 +61,16 @@ class RadCheckBtn(QWidget):
         answer_layout.addWidget(answer_d)
         answers.setLayout(answer_layout)
 
-        master_layout = QHBoxLayout()
-        master_layout.addWidget(os)
-        master_layout.addWidget(drinks)
-        master_layout.addWidget(answers)
+        h_layout = QHBoxLayout()
+        h_layout.addWidget(os)
+        h_layout.addWidget(drinks)
+        
+        v_layout = QVBoxLayout()
+        v_layout.addLayout(h_layout)
+        v_layout.addWidget(answers)
 
 
-        self.setLayout(master_layout)
+        self.setLayout(v_layout)
 
     def windows_box_toggled(self, checked):
         if (checked):
