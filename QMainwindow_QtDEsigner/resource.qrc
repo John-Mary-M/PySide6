@@ -1,0 +1,12 @@
+<RCC>
+  <qresource>
+    <file>Images/about.png</file>
+    <file>Images/copy.png</file>
+    <file>Images/cut.png</file>
+    <file>Images/information-button.png</file>
+    <file>Images/paste.png</file>
+    <file>Images/redo-arrow-symbol.png</file>
+    <file>Images/remove.png</file>
+    <file>Images/undo-circular-arrow.png</file>
+  </qresource>
+</RCC>
