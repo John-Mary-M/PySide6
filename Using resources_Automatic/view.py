@@ -1,6 +1,5 @@
 # 1/08/2025 
 from PySide6.QtWidgets import QWidget
-from PySide6.QtGui import QIcon
 from ui_Cwidget import Ui_Custom_Widget
 
 class Custom_Widget_App(QWidget,  Ui_Custom_Widget):
